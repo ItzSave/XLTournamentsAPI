@@ -8,12 +8,6 @@ import java.util.*;
 
 public abstract class XLObjective {
 
-    private String identifier;
-
-    public XLObjective(String identifier) {
-        this.identifier = identifier;
-    }
-
     public abstract boolean loadTournament(FileConfiguration config);
 
     public boolean canExecute(Tournament tournament, Player player) {
@@ -21,7 +15,7 @@ public abstract class XLObjective {
     }
 
     public String getIdentifier() {
-        return identifier;
+        return null;
     }
 
     public List<Tournament> getTournaments() {
