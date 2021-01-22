@@ -7,6 +7,8 @@ import org.bukkit.entity.Player;
 import java.util.*;
 
 public abstract class XLObjective {
+    
+    public XLObjective(String var) {}
 
     public abstract boolean loadTournament(FileConfiguration config);
 
