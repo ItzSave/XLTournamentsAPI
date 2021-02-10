@@ -8,7 +8,7 @@ import java.util.*;
 
 public abstract class XLObjective {
     
-    public XLObjective(String var) {}
+    public XLObjective(String name) {}
 
     public abstract boolean loadTournament(FileConfiguration config);
 
