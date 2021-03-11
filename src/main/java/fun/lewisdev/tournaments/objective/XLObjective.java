@@ -10,7 +10,7 @@ public abstract class XLObjective {
     
     public XLObjective(String name) {}
 
-    public abstract boolean loadTournament(FileConfiguration config);
+    public abstract boolean loadTournament(Tournament tournament, FileConfiguration config);
 
     public boolean canExecute(Tournament tournament, Player player) {
         return true;
