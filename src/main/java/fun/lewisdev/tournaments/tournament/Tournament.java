@@ -40,7 +40,11 @@ public class Tournament {
 
     }
 
-    public void addScore(UUID uuid, Integer amount) {
+    public void addScore(UUID uuid, int amount) {
+
+    }
+
+    public void addScore(UUID uuid, int amount, boolean replace) {
 
     }
 
