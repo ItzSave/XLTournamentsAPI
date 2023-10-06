@@ -1,6 +1,6 @@
-package fun.lewisdev.tournaments.objective;
+package net.zithium.tournaments.objective;
 
-import fun.lewisdev.tournaments.tournament.Tournament;
+import net.zithium.tournaments.tournament.Tournament;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 

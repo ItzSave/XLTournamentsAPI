@@ -1,7 +1,7 @@
-package fun.lewisdev.tournaments.tournament;
+package net.zithium.tournaments.tournament;
 
-import fun.lewisdev.tournaments.objective.XLObjective;
-import fun.lewisdev.tournaments.utility.Timeline;
+import net.zithium.tournaments.objective.XLObjective;
+import net.zithium.tournaments.utility.Timeline;
 import org.bukkit.OfflinePlayer;
 
 import java.util.*;

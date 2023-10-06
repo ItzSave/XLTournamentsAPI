@@ -1,7 +1,7 @@
-package fun.lewisdev.tournaments;
+package net.zithium.tournaments;
 
-import fun.lewisdev.tournaments.objective.XLObjective;
-import fun.lewisdev.tournaments.tournament.Tournament;
+import net.zithium.tournaments.objective.XLObjective;
+import net.zithium.tournaments.tournament.Tournament;
 
 public interface XLTournamentsAPI {
 

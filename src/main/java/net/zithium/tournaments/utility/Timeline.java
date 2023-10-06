@@ -1,4 +1,4 @@
-package fun.lewisdev.tournaments.utility;
+package net.zithium.tournaments.utility;
 
 public enum Timeline {
 

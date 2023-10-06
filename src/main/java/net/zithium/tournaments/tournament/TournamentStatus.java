@@ -1,4 +1,4 @@
-package fun.lewisdev.tournaments.tournament;
+package net.zithium.tournaments.tournament;
 
 public enum TournamentStatus {
 

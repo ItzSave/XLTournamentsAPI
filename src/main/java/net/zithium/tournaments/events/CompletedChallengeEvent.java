@@ -1,6 +1,6 @@
-package fun.lewisdev.tournaments.events;
+package net.zithium.tournaments.events;
 
-import fun.lewisdev.tournaments.tournament.Tournament;
+import net.zithium.tournaments.tournament.Tournament;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;

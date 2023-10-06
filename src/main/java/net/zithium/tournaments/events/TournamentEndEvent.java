@@ -1,17 +1,17 @@
-package fun.lewisdev.tournaments.events;
+package net.zithium.tournaments.events;
 
-import fun.lewisdev.tournaments.tournament.Tournament;
+import net.zithium.tournaments.tournament.Tournament;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class TournamentStartEvent extends Event {
+public class TournamentEndEvent extends Event {
 
     private static final HandlerList HANDLERS_LIST = new HandlerList();
     private boolean cancelled = false;
 
     private Tournament tournament;
 
-    public TournamentStartEvent(Tournament tournament) {
+    public TournamentEndEvent(Tournament tournament) {
         this.tournament = tournament;
     }
 
