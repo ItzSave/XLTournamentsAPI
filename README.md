@@ -20,13 +20,10 @@ This repository provides a stripped version of [XLTournaments](https://www.spigo
 ```
 
 ```bash
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
+   repositories {
+     mavenCentral()
+     maven { url 'https://jitpack.io' }
+   }
 ```
 
 ```bash
