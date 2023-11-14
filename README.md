@@ -4,7 +4,7 @@ This repository provides a stripped version of [XLTournaments](https://www.spigo
 ## Installation
 
 ### Maven
-[![](https://jitpack.io/v/ItsLewizzz/XLTournamentsAPI.svg)](https://jitpack.io/#ItsLewizzz/XLTournamentsAPI)
+[![](https://jitpack.io/v/ItzSave/XLTournamentsAPI.svg)](https://jitpack.io/#ItzSave/XLTournamentsAPI)
 ```bash
 <repository>
     <id>jitpack.io</id>
@@ -13,8 +13,24 @@ This repository provides a stripped version of [XLTournaments](https://www.spigo
 ```
 ```bash
 <dependency>
-    <groupId>com.github.ItsLewizzz</groupId>
+    <groupId>com.github.ItzSave</groupId>
     <artifactId>XLTournamentsAPI</artifactId>
     <version>{VERSION}</version>
 </dependency>
+```
+
+```bash
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```bash
+	dependencies {
+	        implementation 'com.github.ItzSave:XLTournamentsAPI:{VERSION}'
+	}
 ```
