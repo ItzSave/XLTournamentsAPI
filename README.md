@@ -18,7 +18,7 @@ This repository provides a stripped version of [XLTournaments](https://www.spigo
     <version>{VERSION}</version>
 </dependency>
 ```
-
+### Gradle
 ```bash
    repositories {
      mavenCentral()
