@@ -3,6 +3,8 @@ package net.zithium.tournaments;
 import net.zithium.tournaments.objective.XLObjective;
 import net.zithium.tournaments.tournament.Tournament;
 
+import java.util.List;
+
 public interface XLTournamentsAPI {
 
     /**
@@ -28,5 +30,12 @@ public interface XLTournamentsAPI {
      * @return The Tournament object if found, otherwise null
      */
     Tournament getTournament(String identifier);
+
+    /**
+     *
+     * @return A list of all loaded tournaments.
+     * @since 1.0.5 (plugin version 3.16.0)
+     */
+    List<String> getTournaments();
 
 }
